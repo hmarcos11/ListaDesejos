@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAmigo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAmigo.Designer.cs">
+      <DependentUpon>FormAmigo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCadastroDesejos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,13 +62,25 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVisualizarDesejos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVisualizarDesejos.Designer.cs">
+      <DependentUpon>FormVisualizarDesejos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAmigo.resx">
+      <DependentUpon>FormAmigo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCadastroDesejos.resx">
       <DependentUpon>FormCadastroDesejos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVisualizarDesejos.resx">
+      <DependentUpon>FormVisualizarDesejos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -63,6 +63,7 @@
             this.amigosToolStripMenuItem.Name = "amigosToolStripMenuItem";
             this.amigosToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.amigosToolStripMenuItem.Text = "Amigos";
+            this.amigosToolStripMenuItem.Click += new System.EventHandler(this.amigosToolStripMenuItem_Click);
             // 
             // desejosToolStripMenuItem
             // 
@@ -85,6 +86,7 @@
             this.consultarDesejosToolStripMenuItem.Name = "consultarDesejosToolStripMenuItem";
             this.consultarDesejosToolStripMenuItem.Size = new System.Drawing.Size(279, 26);
             this.consultarDesejosToolStripMenuItem.Text = "Consultar Desejos Solicitados";
+            this.consultarDesejosToolStripMenuItem.Click += new System.EventHandler(this.consultarDesejosToolStripMenuItem_Click);
             // 
             // FormPrincipal
             // 
@@ -93,7 +95,7 @@
             this.ClientSize = new System.Drawing.Size(779, 322);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormPrincipal";
             this.Text = "Lista de Desejos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
